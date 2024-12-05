@@ -21,7 +21,7 @@ public class ExplosiveBlocks {
 	public void initilizeBlocks() {
 		x8Tnt = new BlockBuilder(MOD_ID)
 			.setBlockModel(block -> new BlockModelStandard<>(block)
-				.withTextures(":block/x8_tnt_top", "moreexplosives:block/x8_tnt_bottom", "moreexplosives:block/x8_tnt_side")
+				.withTextures("moreexplosives:block/x8_tnt_top", "moreexplosives:block/x8_tnt_bottom", "moreexplosives:block/x8_tnt_side")
 			)
 				.build(new BlockX8TNT("x8Tnt", blockId++));
 
